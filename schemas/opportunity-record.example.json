@@ -1,0 +1,17 @@
+{
+  "platform": "manual",
+  "platform_request_id": "demo-001",
+  "canonical_url": "https://example.com/media-request/demo-001",
+  "retrieved_at": "2026-09-12T12:00:00Z",
+  "request_text_hash": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "provenance": "manual",
+  "journalist_name": "Example Journalist",
+  "outlet_claimed": "Example Outlet",
+  "deadline_raw": "September 15, 2026 at 5 PM ET",
+  "deadline_timezone": "America/New_York",
+  "deadline_utc": "2026-09-15T21:00:00Z",
+  "requirements": ["Firsthand operator experience"],
+  "exclusions": ["Generic vendor commentary"],
+  "terms_status": "manual-only",
+  "verification_status": "partial"
+}

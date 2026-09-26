@@ -1,0 +1,4 @@
+interface:
+  display_name: "Publicist Skills — Germany"
+  short_description: "German media research, targeting, angles, and pitch drafting"
+  default_prompt: "Use $publicist-germany to research and verify German media targets, develop a Germany-specific angle, and draft the requested outreach."

@@ -1,0 +1,27 @@
+name: Feature request
+description: Propose a workflow, compatibility, or documentation improvement.
+title: "feature: "
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before opening this issue, search the open issues and pull requests for related work. Features need an issue before any pull request; do not submit a drive-by feature PR.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: Describe the user need using fictional data.
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Desired outcome
+    validations:
+      required: true
+  - type: textarea
+    id: safety
+    attributes:
+      label: Safety and policy implications
+      description: Explain effects on acquisition, evidence, privacy, approval, or sending.

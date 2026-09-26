@@ -1,0 +1,32 @@
+name: Provider or policy correction
+description: Report a dated primary-source correction without personal data.
+title: "policy: "
+labels: [policy]
+body:
+  - type: input
+    id: provider
+    attributes:
+      label: Provider or jurisdiction
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Primary-source URL
+    validations:
+      required: true
+  - type: input
+    id: accessed
+    attributes:
+      label: Date accessed
+      placeholder: YYYY-MM-DD
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Correction
+      description: Do not include journalist, client, credential, or correspondence data.
+    validations:
+      required: true
+

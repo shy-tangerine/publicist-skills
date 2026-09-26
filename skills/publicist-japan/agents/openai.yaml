@@ -1,0 +1,4 @@
+interface:
+  display_name: "Publicist Skills Japan"
+  short_description: "Japan media research, targeting, angles, and pitch drafting"
+  default_prompt: "Use $publicist-japan to research and verify Japanese media targets, develop a locally relevant angle, and draft the requested outreach."

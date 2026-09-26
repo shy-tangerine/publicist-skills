@@ -1,0 +1,60 @@
+{
+  "organization": {
+    "name": "Northstar Materials Lab",
+    "representation": "Example Communications represents Northstar Materials Lab for this fictional exercise.",
+    "disclosure": "Agency representation must be disclosed in outreach."
+  },
+  "approved_claims": [
+    {
+      "claim": "The lab published a fictional reusable-packaging benchmark covering 120 simulated samples.",
+      "evidence_url": "https://example.invalid/northstar/benchmark",
+      "reviewed": "2026-09-20",
+      "expires": "2026-12-20"
+    }
+  ],
+  "spokespeople": [
+    {
+      "name": "Alex Example",
+      "role": "Research lead",
+      "credentials": ["Fictional materials researcher"],
+      "languages": ["en", "de"],
+      "availability": "Weekdays 14:00-18:00 UTC",
+      "topics": ["packaging methods", "benchmark methodology"]
+    }
+  ],
+  "evidence": [
+    {
+      "label": "Benchmark methodology",
+      "url": "https://example.invalid/northstar/methodology"
+    }
+  ],
+  "exclusions": {
+    "claims": ["Do not claim market leadership."],
+    "outlets": [],
+    "people": [],
+    "geographies": []
+  },
+  "embargo": {
+    "active": true,
+    "release_at": "2026-10-01T13:00:00Z",
+    "approved_by": "Fictional communications lead"
+  },
+  "prior_contact_suppression": [
+    {
+      "recipient": "reporter@example.invalid",
+      "outlet": "Example Daily",
+      "last_contact": "2026-09-15",
+      "outcome": "declined",
+      "opt_out": false,
+      "suppress_until": "2026-12-15"
+    }
+  ],
+  "market_permissions": {
+    "US": {"allowed_channels": ["published professional email"], "requires_review": false},
+    "DE": {"allowed_channels": ["published professional email"], "requires_review": true},
+    "CN": {"allowed_channels": [], "requires_review": true},
+    "JP": {"allowed_channels": ["published newsroom route"], "requires_review": true},
+    "BR": {"allowed_channels": ["published professional email"], "requires_review": false}
+  },
+  "updated_at": "2026-09-20"
+}

@@ -1,0 +1,42 @@
+name: Bug report
+description: Report a reproducible problem in a skill, workflow, or document.
+title: "bug: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before opening this issue, search the open issues and pull requests for related reports. Use fictional data and do not include credentials, private correspondence, or personal data.
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug description
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. ...
+        2. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+    validations:
+      required: true

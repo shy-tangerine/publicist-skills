@@ -1,0 +1,7 @@
+interface:
+  display_name: "Publicist Skills — United States"
+  short_description: "US media research, targeting, angles, and pitch drafting"
+  icon_small: "./assets/icon-small.svg"
+  icon_large: "./assets/icon-large.svg"
+  brand_color: "#102235"
+  default_prompt: "Use $publicist-us to find and verify relevant US media opportunities, develop evidence-backed angles, and draft the requested outreach."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Publicist Skills — Brasil"
+  short_description: "Pesquisa, seleção de mídia, pautas e pitches para o Brasil"
+  default_prompt: "Use $publicist-brazil para pesquisar e verificar alvos de imprensa no Brasil, desenvolver um recorte local e redigir o material solicitado."

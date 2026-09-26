@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/shy-tangerine/publicist-skills/schemas/opportunity-record.schema.json",
+  "title": "AI Publicist Opportunity Record",
+  "type": "object",
+  "required": [
+    "platform",
+    "platform_request_id",
+    "canonical_url",
+    "retrieved_at",
+    "request_text_hash",
+    "provenance",
+    "journalist_name",
+    "outlet_claimed",
+    "deadline_raw",
+    "terms_status",
+    "verification_status"
+  ],
+  "properties": {
+    "platform": {"type": "string", "minLength": 1},
+    "platform_request_id": {"type": "string", "minLength": 1},
+    "canonical_url": {"type": "string", "format": "uri"},
+    "retrieved_at": {"type": "string", "format": "date-time"},
+    "request_text_hash": {"type": "string", "pattern": "^sha256:[a-f0-9]{64}$"},
+    "provenance": {
+      "enum": ["official-mcp", "official-api", "licensed-export", "manual"]
+    },
+    "journalist_name": {"type": "string", "minLength": 1},
+    "outlet_claimed": {"type": "string", "minLength": 1},
+    "deadline_raw": {"type": "string", "minLength": 1},
+    "deadline_timezone": {"type": ["string", "null"]},
+    "deadline_utc": {"type": ["string", "null"], "format": "date-time"},
+    "requirements": {"type": "array", "items": {"type": "string"}},
+    "exclusions": {"type": "array", "items": {"type": "string"}},
+    "terms_status": {
+      "enum": ["allowed", "permission-required", "manual-only", "prohibited"]
+    },
+    "verification_status": {"enum": ["unverified", "partial", "verified"]}
+  },
+  "additionalProperties": true
+}

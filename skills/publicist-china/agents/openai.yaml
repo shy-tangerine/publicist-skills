@@ -1,0 +1,4 @@
+interface:
+  display_name: "Publicist Skills 中国大陆"
+  short_description: "中国大陆媒体研究、目标筛选、选题与中文稿件"
+  default_prompt: "使用 $publicist-china 研究并核验中国大陆媒体目标，设计本地化角度，并起草所需的简体中文稿件。"
