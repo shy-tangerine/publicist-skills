@@ -20,7 +20,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/shy-tangerine/publicist-skills"><img alt="GitHub: private preview, authentication required" src="https://img.shields.io/badge/Repository-private%20preview-6B7280?style=flat-square&labelColor=111111"></a>
+  <a href="https://github.com/shy-tangerine/publicist-skills"><img alt="GitHub: public" src="https://img.shields.io/badge/Repository-public-2E8B57?style=flat-square&labelColor=111111"></a>
 </p>
 
 Publicist Skills 提供由 49 个 Agent Skill 组成的技能家族。五个国家技能覆盖美国、德国、中国大陆、日本和巴西；36 个可选的平台技能提供单一渠道的深度内容；五个跨市场营销技能覆盖转化率、发布经济学、定价、注册和社交内容；三个公关工作流技能覆盖监测、新闻价值判断和同一媒体的重复联系。按需加载即可。

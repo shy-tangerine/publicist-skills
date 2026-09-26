@@ -1,6 +1,6 @@
 # Security policy
 
-> **Private preview.** Access to `shy-tangerine/publicist-skills` requires authorization. Submit security reports through that repository's private vulnerability reporting form.
+> **Public repository.** Submit security reports through GitHub private vulnerability reporting.
 
 Report vulnerabilities privately at https://github.com/shy-tangerine/publicist-skills/security/advisories/new.
 

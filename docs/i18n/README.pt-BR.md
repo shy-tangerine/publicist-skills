@@ -20,7 +20,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/shy-tangerine/publicist-skills"><img alt="GitHub: private preview, authentication required" src="https://img.shields.io/badge/Repository-private%20preview-6B7280?style=flat-square&labelColor=111111"></a>
+  <a href="https://github.com/shy-tangerine/publicist-skills"><img alt="GitHub: public" src="https://img.shields.io/badge/Repository-public-2E8B57?style=flat-square&labelColor=111111"></a>
 </p>
 
 Publicist Skills reúne uma família de 49 Agent Skills. Cinco skills de país cobrem Estados Unidos, Alemanha, China continental, Japão e Brasil; 36 skills de plataforma opcionais adicionam profundidade por canal; cinco skills de marketing cross-market cobrem conversão, economia de lançamentos, preços, cadastro e conteúdo social; e três skills de fluxo de trabalho de relações públicas cobrem monitoramento, noticiabilidade e novos contatos com o mesmo veículo. Você carrega apenas o que precisa.

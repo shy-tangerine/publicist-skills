@@ -1,6 +1,6 @@
 # Installation
 
-The install commands below require access to the private preview repository. Authenticate with GitHub before using the Skills CLI; unauthenticated installs are not available yet.
+The install commands below use the public repository; no GitHub authentication is required.
 
 Publicist Skills contains five independent country skills for United States media in English, Germany, mainland China, Japan, and Brazil, 36 optional platform companions that add depth for a single market, and five independent cross-market marketing skills. The CLI method requires Node.js and `npx`.
 

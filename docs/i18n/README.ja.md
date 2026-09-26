@@ -20,7 +20,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/shy-tangerine/publicist-skills"><img alt="GitHub: private preview, authentication required" src="https://img.shields.io/badge/Repository-private%20preview-6B7280?style=flat-square&labelColor=111111"></a>
+  <a href="https://github.com/shy-tangerine/publicist-skills"><img alt="GitHub: public" src="https://img.shields.io/badge/Repository-public-2E8B57?style=flat-square&labelColor=111111"></a>
 </p>
 
 Publicist Skills は49個の Agent Skill ファミリーです。5つの国別スキルが米国、ドイツ、中国本土、日本、ブラジルに対応し、36個の任意のプラットフォームスキルがチャネルごとの詳しい情報を追加します。5個の市場横断マーケティングスキルはコンバージョン、ローンチ経済性、料金設定、サインアップ、ソーシャルコンテンツを扱い、3個の広報ワークフロースキルはモニタリング、ニュース価値、同じ媒体への再アプローチを扱います。必要なものだけを読み込めます。
